@@ -28,10 +28,6 @@ export interface Message {
   createdAt: string;
 }
 
-export interface JointChatPayload {
-  userName: string;
-}
-
 export interface MessagePayload {
   content: string;
   user: User;
